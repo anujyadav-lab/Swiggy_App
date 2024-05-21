@@ -19,13 +19,13 @@ const RestaurantMenu = () => {
       <h3>{costForTwoMessage}</h3>
             console.log(json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards)
 
-      {/* <ul>
+      <ul>
         {menuInfo.map((item, id) => (
           <li key={id}>
             {item.card.info.name} - {item.card.info.price / 100}
           </li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 };
